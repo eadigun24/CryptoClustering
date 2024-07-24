@@ -2,6 +2,11 @@
 ## Challenge Notes
 * The main requirements for this challenge was from the module 11 challenge details in bootcamp.
 
+## Utility File
+* In accordance to the coding standards specified in this challange, I added a python utility file to provide code reusability for the challenge.
+    * File name: crypto_clustering_utilities.
+        - Function name: determine_best_kvalue().
+          
 ## Preparing the Data
 * First I scale the data loaded from the CSV file. This is done using the 'StandardScaler()' from scikit-learn.
 * After scaling the data, I create a DataFrame from the scaled data, and columns from the original dataframe.
